@@ -1,13 +1,13 @@
 package chapter1
 
 import (
-	"fmt"
-	"os"
+    "fmt"
+    "os"
 )
 
 func Ex1_2() {
-	for index, args := range os.Args[1:] {
-		fmt.Println(index)
-		fmt.Println(args)
-	}
+    for index, args := range os.Args[1:] {
+        fmt.Println(index)
+        fmt.Println(args)
+    }
 }
