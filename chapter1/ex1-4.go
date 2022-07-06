@@ -22,6 +22,7 @@ func Ex1_4() {
 			countLines(f, counts)
 			f.Close()
 		}
+
 		for line, n := range counts {
 			if n > 1 {
 				fmt.Println("%d\t%s\n", n, line)

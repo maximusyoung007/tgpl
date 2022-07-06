@@ -24,6 +24,7 @@ func Ex1_10() {
 		file *os.File
 		err  error
 	)
+
 	//文件是否存在
 	if Exists(fileName) {
 		//使用追加模式打开文件

@@ -16,7 +16,6 @@ func Ex1_3() {
 	}
 	t2 := time.Now()
 	fmt.Println(t2.Nanosecond() - t1.Nanosecond())
-
 	t3 := time.Now()
 	res2 = strings.Join(s, " ")
 	t4 := time.Now()
