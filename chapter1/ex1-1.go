@@ -5,6 +5,6 @@ import (
 	"os"
 )
 
-func Echo1() {
+func Ex1_1() {
 	fmt.Println(os.Args[0])
 }
