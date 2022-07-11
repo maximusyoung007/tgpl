@@ -5,14 +5,14 @@ type Celsius float64
 type Kelvin float64
 
 const (
-	AbsoluteZeroC Celsius = -273.15
-	AbsoluteZeroK Kelvin  = 0
+    AbsoluteZeroC Celsius = -273.15
+    AbsoluteZeroK Kelvin  = 0
 )
 
 func CToK(c Celsius) Kelvin {
-	return Kelvin(c - 273.15)
+    return Kelvin(c - 273.15)
 }
 
 func KToC(k Kelvin) Celsius {
-	return Celsius(k + 273.15)
+    return Celsius(k + 273.15)
 }
